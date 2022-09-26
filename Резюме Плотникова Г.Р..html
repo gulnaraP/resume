@@ -1,0 +1,267 @@
+<!DOCTYPE html><!--тип документа, всегда указывается в самом начале. Указывает на то, чтобы страница правильно отображалась в браузерах. Важный тег HTML5-->
+<html lang="en">
+<head>
+    <title>Плотникова Г.Р. резюме</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            background: #0b1e5a url("https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1614793731_148-p-fon-dlya-detskoi-prezentatsii-kartinki-177.jpg");
+            background-size: cover ;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .round {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            border-radius: 50%;
+            box-shadow: 3px #BDB76B;
+        }
+        div#tekst_sverhu_kartinki {
+            position: relative;
+        }
+        .tekst_FI {
+            position: fixed;
+            top: 2vw;
+            left: 2vw;
+            margin: auto;
+            text-transform: uppercase;
+            white-space: nowrap;
+            color: hsl(0, 0%, 0%);
+            width: 14vw;
+            height: 2vw;
+            background: #3ee01646;
+            padding: 10px;
+            text-align: left;
+            font: bold 100% Helvetica, Sans-Serif;
+            font-size: 1.1vw;
+        }  
+        
+        .tekst_o_sebe {
+            position: absolute;
+            top: 7vw;
+            left: 20vw;
+            margin: auto;
+            color: hsl(0, 0%, 0%);
+            width: 75vw;
+            background: #fafafa94;
+            padding: 10px;
+            text-align: left;
+            font: bold 20px Helvetica, Sans-Serif;
+        }  
+
+        .tekst_qa {
+            position: fixed;
+            top: 19vw;
+            left: 2vw;
+            margin: auto;
+            white-space: nowrap;
+            color: hsl(0, 0%, 0%);
+            width: 14vw;
+            white-space: nowrap;
+            background: #fafafa94;
+            padding: 8px;
+            text-align: center;
+            font: bold 100% Helvetica, Sans-Serif;
+            font-size: 1.2vw;
+        }  
+        
+        .foto {
+            position: fixed;
+            top: 6vw;
+            left: 4vw;
+            margin: auto;
+            width: 12vw;
+            height: 12vw;
+            background: #fc313100;
+            padding: 4px;
+        }
+            
+        .kontakty {
+            position: fixed;
+            top: 23vw;
+            left: 2vw;
+            margin: auto;
+            color: hsl(0, 0%, 0%);
+            width: 13.5vw;
+            background: #fafafa94;
+            padding: 10px;
+            text-align: center;
+            font: bold 100% Helvetica, Sans-Serif;
+            font-size: 1.1vw;
+        }
+
+        .s_podskaz {
+          display: inline-block; /* Строчно-блочный элемент */
+          position: relative; /* Относительное позиционирование */
+             }
+
+        .s_podskaz:hover::after {
+          color: rgba(18, 13, 88, 0.959);
+          content: attr(data-title); /* Выводим текст */
+          position: absolute; /* Абсолютное позиционирование */
+          left: 20%; top: 150%; /* Положение подсказки */
+          z-index: 1; /* Отображаем подсказку поверх других элементов */
+          background: rgb(248, 206, 68); /* Полупрозрачный цвет фона */
+          font-family: Arial, sans-serif; /* Гарнитура шрифта */
+          font-size: 16px; /* Размер текста подсказки */
+          padding: 5px 10px; /* Поля */
+          border: 1px solid rgba(51, 51, 51, 0); /* Параметры рамки */ 
+        }
+
+        a:hover {
+          color: #facc37fa;
+        } 
+        .tekst_rezume  {
+            position:absolute;
+            top: 2vw;
+            left: 35vw;
+            margin: auto;
+            text-transform: uppercase;
+            white-space: nowrap;
+            color: hsl(0, 0%, 0%);
+            width: 40vw;
+            height: 2vw;
+            background: #fafafa94;
+            padding: 10px;
+            text-align: left;
+            font: bold 100% Helvetica, Sans-Serif;
+            font-size: 1.5vw;
+        } 
+        li {
+    list-style: none; /* Скрываем маркеры списка */
+    text-indent: -1em; /* Сдвигаем элементы списка влево */
+   }
+   li::before {
+    content: '\29D2'; /* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 5px; /* Расстояние от маркеров до текста */
+    color: rgba(14, 153, 207, 0.986); /* Маркеры голубого цвета */
+   }
+    </style>
+</head>
+<body>
+ <body link="#191970" alink="#FFD700" vlink="#191970">   
+ <div id="tekst1_sverhu_kartinki"></div>
+  <div class="tekst_FI">Плотникова Гульнара</div> 
+  <div class="tekst_rezume">Резюме на должность QA-инженера</div>
+  <div class="tekst_o_sebe">
+    <p> <div class="s_podskaz" data-title="В 2012 году окончила Поволжский государственный технологический университет по специальности 'Экономика и  управление на предприятии  АПК'">
+
+    <u>Образование:</u> высшее. Cпециальность: экономист-менеджер. </div>
+</p>
+<hr color="#0b1e5a"><!--горизонтальая линия-->
+<p> <div class="s_podskaz" data-title=" Апрель-Июнь 2022 – Курсы повышения квалификации 
+    Томского государственного университета по программе
+    'Тестировщик программного обеспечения'. Удостоверение о повышении квалификации 'Тестировщик программного обеспечения' (144 часа) ">
+   <u>Дополнительное образование:</u> курсы повышения квалификации по программе "Тестировщик ПО".</div>
+ </p>
+ <hr color="#0b1e5a">
+ <p> <div class="s_podskaz" data-title="Май-Декабрь 2022 - По окончании  выдается диплом о профессиональной переподготовке установленного образца от Skillfactory по программе
+    'Тестировщик-автоматизатор на Python'">
+   <u>Дополнительное образование:</u> курсы  профессиональной переподготовке по программе "Тестировщик-автоматизатор на Python".</div>
+ </p>
+ <hr color="#0b1e5a">
+ <p> <div class="s_podskaz" data-title="С Июня 2013 по декабрь 2021 года  - старший бухгалтер по расчету  заработной платы в ОАО АК 'Трансаэро'."> <u>Опыт работы:</u> 8 лет по специальности бухгалтер по расчету  заработной платы.</div>
+  </p>
+  <hr color="#0b1e5a">
+  <p> <div class="s_podskaz" data-title="С июня  по август 2022 года работала в качестве тестировщика 
+    на некоммерческом проекте ViddiBot"> <u>Релевантный опыт работы:</u> 3 месяца по специальности 
+    тестировщик ПО.</div>
+  </p>
+  <ul> <u>Обязанности:</u>
+    <p></p>
+    <li>Функциональное тестирование лендинга на ПК и мобильных устройствах;</li>
+    <li>Функциональное тестирование чат-бота в Telegram.</li>
+  </p>
+  </ul>
+  </p>
+  <hr color="#0b1e5a">
+  <ul> <u>Навыки:</u>
+    <p>
+    <li>Знание теории тестирования программного обеспечения;</li>
+    <li>Умение работать с нормативной документацией;</li>
+    <li>Умение составлять тестовую документацию (чек-листы, тест-кейсы, user-story,
+       тест-репорты, баг-репорты);</li>
+    <li>Ведение тестовой документации в TestRail и Jira ;</li>
+    <li>Уверенное владение системы контроля версий Git;</li>
+    <li>Базовые навыки работы в командной строке;</li>
+    <li>Знание методологии Agile (Scrum, Kanban);</li>
+    <li>Грамотность и умение правильно формулировать мысли в устной и письменной форме.</li>
+    <div class="slidecontainer" align="left">  <!--ползунок двигается, не зафиксирован-->
+        <li>Основы SQL:<input type="range" min="1" max="100" value="0"><i>изучаю</i></li>
+        <li>Основы API тестирования:<input type="range" min="1" max="100" value="30"><i>изучаю,  работа с Postman</i></li>
+        <li>Базовое владение HTML и CSS:<input type="range" min="1" max="100" value="30"></li>
+        
+        </div>
+    </p>
+  </ul>
+  </p>
+  <hr color="#0b1e5a">
+ 
+
+  <ul> <u>Личные качества:</u>
+    <p>
+    <li>Трудолюбие;</li>
+    <li>Желание постоянно обучаться новому и углублять имеющиеся знания;</li>
+    <li>Умение работать в команде;</li>
+    <li>Умение и желание делиться знаниями с другими людьми;</li>
+    <li>Сдержанность и воспитанность;</li>
+    <li>Внимательность;</li>
+    <li>Отзывчивость; </li>
+    <li>Исполнительность.</li>
+    </p>
+  </ul>
+  </p>          
+  </div> 
+  <div class="tekst_qa">QA-инженер, Junior</div>
+
+  <div class="kontakty"> 
+    <p>Контактная информация</p>
+
+    <div class="kont_info">
+    <p><img src="map.svg" width="25vw"> 
+    <br>Город: Видное, Россия </p>
+    <hr color="#0b1e5a">
+    </div>
+
+    <div class="kont_info">
+    <img src="phone.svg" width="25vw">
+    <br>
+    <a class="phone_link link" href="tel:+79160XXXXXX">
+     +7(916) 0XX-XX-XX
+    </a>
+    <hr color="#0b1e5a">
+    </div>
+    <div class="kont_info">
+    <img src="letter.svg" width="25vw">
+    <a href="mailto:gulnara@gmail.com" target="_blank">
+    gulnara@gmail.com
+    </a>
+    <hr color="#0b1e5a">
+    </div>
+
+    <div class="kont_info">
+    <img  src="telegram.svg" width="25vw">
+    <br>
+    <a class="telegrem_link link" href="https://t.me/Plotnikova_gr" target="_blank">
+    @Plotnikova_gr
+    </a>
+    </div>
+    <div class="kont_info">
+      <br>
+      <a href="https://github.com/gulnaraP" target="_blank">
+        <img class="icon" src="github.ico" alt="GitHub:" />gulnaraP
+      </a>
+      </div>
+    <div class="foto">
+    <img src="https://i.ibb.co/VTkwbkN/ava.jpg" alt="фотография"  class="round">  
+    </div>
+  
+
+</body>
+</html>
